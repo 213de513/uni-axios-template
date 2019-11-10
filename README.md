@@ -16,7 +16,7 @@ uni app 二次封装 可以clone下来然后放到需要的uni-app项目里
 >baseService.js post、get请求实现文件
 
 **store**
-uni-app内置了 vuex，用来存储token和其他状态
+>uni-app内置了 vuex，用来存储token和其他状态
 
 ## 使用方法 
 1. 在api.config.js中设置接口地址及方法。
