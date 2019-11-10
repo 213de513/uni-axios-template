@@ -27,7 +27,7 @@ uni app 二次封装 可以clone下来然后放到需要的uni-app项目里
 		desc:'发送邮件'
 	}
 ```
-2. 在request.js中设置请求方法并暴露出去。（直接引用响应API.xxx即可，无需其他设置。）
+2. 在request.js中设置请求方法并暴露出去。（直接引用对应API.xxx即可，无需其他设置。）
 ```
 export function SEND_EMAIL(params){
 	handleRequest(API.SEND_EMAIL,params);
