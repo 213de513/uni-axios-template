@@ -19,7 +19,7 @@ uni app 二次封装 可以clone下来然后放到需要的uni-app项目里
 >uni-app内置了 vuex，用来存储token和其他状态
 
 ## 使用方法 
-1. 在api.config.js中设置接口地址及方法。
+1. 在service/api.config.js中设置接口地址及方法。
 ```
   SEND_EMAIL:{
 		url:'/user/sendMail',
@@ -27,7 +27,7 @@ uni app 二次封装 可以clone下来然后放到需要的uni-app项目里
 		desc:'发送邮件'
 	}
 ```
-2. 在request.js中设置请求方法并暴露出去。（直接引用对应API.xxx即可，无需其他设置。）
+2. 在apis/request.js中设置请求方法并暴露出去。（直接引用对应API.xxx即可，无需其他设置。）
 ```
 export function SEND_EMAIL(params){
 	handleRequest(API.SEND_EMAIL,params);
